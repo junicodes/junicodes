@@ -1,4 +1,11 @@
 .contact-sty-cover {
   color: white;
+  padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .contact-sty-cover {
+    padding-top: 70px;
+  }
 }
 /*# sourceMappingURL=Contact.css.map */

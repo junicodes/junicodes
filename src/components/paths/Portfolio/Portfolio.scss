@@ -1,3 +1,7 @@
 .portfolio-sty-cover {
     color: white;
+    padding-top: 50px;
+    @media(max-width: 768px) {
+        padding-top: 70px;
+    }
 }

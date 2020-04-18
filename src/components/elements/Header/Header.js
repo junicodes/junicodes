@@ -8,11 +8,17 @@ class Header extends Component {
     isMobile: false
   }
 
+  componentDidMount(){
+    let x = window.matchMedia("(max-width: 768px)")
+    this.checkIfMobile(x);
+    x.addListener(this.checkIfMobile)
+  }
+
   handleMobileLinkChange = (link) => {
     clearTimeout(this.timeout);
     this.timeout = setTimeout(() => {
        this.props.onSelectLinkSwitch(link)
-    }, 10);
+    }, 100);
   }
   
   handleLinkChange = (e) => {
@@ -23,13 +29,9 @@ class Header extends Component {
        this.props.onSelectLinkSwitch(link)
     }, 10);
   }
+
   checkIfMobile = (x) => {
       x.matches ? this.setState({isMobile: true}) : this.setState({isMobile: false});
-  }
-  componentDidMount(){
-    let x = window.matchMedia("(max-width: 768px)")
-    this.checkIfMobile(x);
-    x.addListener(this.checkIfMobile)
   }
 
   render(){

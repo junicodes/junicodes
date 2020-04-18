@@ -6,15 +6,14 @@ class MobileMenu extends Component {
         mobileLink: 'Home',
     }
 
-    toggleMenu = (e) => {
-        document.getElementById('burger').classList.toggle('is-open');
-    document.getElementById('main-nav').classList.toggle('is-open');
+    toggleMenu = () => {
+        document.querySelector('#burger').classList.toggle('is-open');
+        document.querySelector('#main-nav').classList.toggle('is-open');
     };
     handleMobileLinkChange = (e) => {
         const link = e.target.dataset.id
-        console.log(link)
+        this.toggleMenu()
         clearTimeout(this.timeout);
-    
         this.timeout = setTimeout(() => {
            this.props.onSelectMobileLinkSwitch(link)
         }, 10);
@@ -29,11 +28,11 @@ class MobileMenu extends Component {
                 </button>
             <nav className="main-nav" id="main-nav">
                 <ul>
-                    <li onClick={this.handleMobileLinkChange} data-id="Home"><span>Home</span></li>
-                    <li onClick={this.handleMobileLinkChange} data-id="About"><span>About</span></li>
-                    <li onClick={this.handleMobileLinkChange} data-id="Services"><span>Services</span></li>
-                    <li onClick={this.handleMobileLinkChange} data-id="Portfolio"><span>Portfolio</span></li>
-                    <li onClick={this.handleMobileLinkChange} data-id="Contact"><span>Contact</span></li>
+                    <li onClick={this.handleMobileLinkChange}><span data-id="Home">Home</span></li>
+                    <li onClick={this.handleMobileLinkChange}><span data-id="About">About</span></li>
+                    <li onClick={this.handleMobileLinkChange}><span data-id="Services">Services</span></li>
+                    <li onClick={this.handleMobileLinkChange}><span data-id="Portfolio">Portfolio</span></li>
+                    <li onClick={this.handleMobileLinkChange}><span data-id="Contact">Contact</span></li>
                 </ul>
             </nav>
             </div>

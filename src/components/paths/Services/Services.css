@@ -1,4 +1,11 @@
 .services-sty-cover {
   color: white;
+  padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .services-sty-cover {
+    padding-top: 70px;
+  }
 }
 /*# sourceMappingURL=Services.css.map */

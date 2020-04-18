@@ -4,14 +4,11 @@ import './Home.css';
 
 
 class Home extends Component{
-    state = {
-
-    }
-
+  
     render() {
         return(
             <div className="home-sty-cover">
-                <ShowCase/>
+                <ShowCase />
             </div>
         )
     }

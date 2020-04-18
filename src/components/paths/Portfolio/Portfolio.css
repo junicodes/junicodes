@@ -1,4 +1,11 @@
 .portfolio-sty-cover {
   color: white;
+  padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .portfolio-sty-cover {
+    padding-top: 70px;
+  }
 }
 /*# sourceMappingURL=Portfolio.css.map */

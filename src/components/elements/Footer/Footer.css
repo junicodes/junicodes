@@ -1,4 +1,10 @@
 .footer-sty-cover {
   color: white;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 99999;
 }
 /*# sourceMappingURL=Footer.css.map */

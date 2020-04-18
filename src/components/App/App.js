@@ -15,7 +15,6 @@ class App extends Component {
     //Trigger the Link switch
     handleLinkSwitch = (link) => {
         this.setState({current_link: link})
-        // flickScreen(this.state.current_link)
     }
 
     render(){
