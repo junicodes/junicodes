@@ -5,6 +5,18 @@
   width: 100%;
   left: 0;
   bottom: 0;
-  z-index: 99999;
+  z-index: 999999;
+}
+
+@media (max-width: 768px) {
+  .footer-sty-cover {
+    height: 80px;
+  }
+}
+
+@media (max-height: 550px) {
+  .footer-sty-cover {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Footer.css.map */

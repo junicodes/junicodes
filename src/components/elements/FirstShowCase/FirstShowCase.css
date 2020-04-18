@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+.firstshowcase-sty-cover {
+  height: 100%;
+}
+
+.firstshowcase-sty-cover div {
+  height: 100%;
+  color: white;
+  font-size: 3vh;
+  font-family: 'Press Start 2P', cursive;
+}
+/*# sourceMappingURL=FirstShowCase.css.map */

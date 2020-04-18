@@ -23,6 +23,11 @@ class Header extends Component {
   
   handleLinkChange = (e) => {
     const link = e.target.dataset.id
+    Array.from(document.querySelectorAll('.laptop-links')).map((element, i)=> {
+      element.style.color = 'white';
+    });
+    e.target.style.color = '#e83e8c';
+    
     clearTimeout(this.timeout);
 
     this.timeout = setTimeout(() => {
@@ -45,11 +50,11 @@ class Header extends Component {
                       : 
                       <div className="col-9 header-link">
                         <ul className="list-group list-group-horizontal">
-                          <li onClick={this.handleLinkChange} data-id="Home" className="list-group-item">Home</li>
-                          <li onClick={this.handleLinkChange} data-id="About" className="list-group-item">About</li>
-                          <li onClick={this.handleLinkChange} data-id="Services" className="list-group-item">Services</li>
-                          <li onClick={this.handleLinkChange} data-id="Portfolio" className="list-group-item">Portfolio</li>
-                          <li onClick={this.handleLinkChange} data-id="Contact" className="list-group-item">Contact</li>
+                          <li onClick={this.handleLinkChange} data-id="Home" className="list-group-item laptop-links home">Home</li>
+                          <li onClick={this.handleLinkChange} data-id="About" className="list-group-item laptop-links">About</li>
+                          <li onClick={this.handleLinkChange} data-id="Services" className="list-group-item laptop-links">Services</li>
+                          <li onClick={this.handleLinkChange} data-id="Portfolio" className="list-group-item laptop-links">Portfolio</li>
+                          <li onClick={this.handleLinkChange} data-id="Contact" className="list-group-item laptop-links">Contact</li>
                         </ul>
                       </div>
                     }

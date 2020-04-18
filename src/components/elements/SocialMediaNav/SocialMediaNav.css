@@ -12,20 +12,32 @@
 
 .socialmedia-nav-sty-cover h5 {
   color: #e83e8c;
-  font-size: 12px;
+  font-size: 2vh;
   font-weight: normal;
   height: 2.14vh;
 }
 
 .socialmedia-nav-sty-cover .social {
   color: white;
-  background: black;
 }
 
 .socialmedia-nav-sty-cover .social div {
   border-bottom: 1px solid white;
+  border-radius: 50%;
   height: 7.14vh;
   cursor: pointer;
+}
+
+.socialmedia-nav-sty-cover .social div .social-name {
+  font-size: 2vh;
+  position: absolute;
+  margin-left: 5.3vw;
+  display: none;
+}
+
+.socialmedia-nav-sty-cover .social div:hover .social-name {
+  opacity: 0.5;
+  display: block;
 }
 
 .socialmedia-nav-sty-cover .social div img {
@@ -38,25 +50,37 @@
 }
 
 .socialmedia-nav-sty-cover .social div img:hover {
+  width: 6vw;
   -webkit-filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
   filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
-.socialmedia-nav-sty-cover .social .whatsapp {
-  border-bottom: 0px !important;
+@media (max-width: 1200px) {
+  .socialmedia-nav-sty-cover {
+    width: 4vw;
+  }
+  .socialmedia-nav-sty-cover .social div .social-name {
+    margin-left: 6.7vw;
+  }
 }
 
 @media (max-width: 768px) {
   .socialmedia-nav-sty-cover {
     width: 4vw;
   }
+  .socialmedia-nav-sty-cover .social div .social-name {
+    margin-left: 5.7vw;
+  }
 }
 
 @media (max-width: 500px) {
   .socialmedia-nav-sty-cover {
     width: 10vw;
+  }
+  .socialmedia-nav-sty-cover .social div .social-name {
+    margin-left: 10.5vw;
   }
 }
 /*# sourceMappingURL=SocialMediaNav.css.map */

@@ -1,12 +1,7 @@
 .showcase-sty-cover {
   color: white;
   height: 100vh;
-  padding-top: 50px;
-}
-
-@media (max-width: 768px) {
-  .showcase-sty-cover {
-    padding-top: 70px;
-  }
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=ShowCase.css.map */

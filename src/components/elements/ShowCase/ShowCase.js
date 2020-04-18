@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
+import FirstShowCase from '../FirstShowCase/FirstShowCase';
+import SecoundShowCase from '../SecoundShowCase/SecoundShowCase';
+import ThirdShowCase from '../ThirdShowCase/ThirdShowCase';
 import './ShowCase.css';
 
 class ShowCase extends Component {
     state = {
         imageFlicker: 1
     }
-        timer = null;
+    timer = null;
 
     componentDidMount() {
-        this.timer = setInterval(() => this.changeShowcaseImage(), 5000);
+        this.timer = setInterval(() => this.changeShowcaseImage(), 7000);
     }
 
     componentWillUnmount(){
@@ -24,10 +27,9 @@ class ShowCase extends Component {
     render(){
         return (
             <div className="col-12 border showcase-sty-cover">
-                ShowCase {this.state.imageFlicker}
-                <div>
-    
-                </div>
+                {1 === 1 ? <FirstShowCase /> : null}
+                {/* {this.state.imageFlicker === 2 ? <SecoundShowCase/> : null}
+                {this.state.imageFlicker === 3 ? <ThirdShowCase /> : null} */}
             </div>
         )
     }

@@ -12,6 +12,11 @@ class MobileMenu extends Component {
     };
     handleMobileLinkChange = (e) => {
         const link = e.target.dataset.id
+
+        Array.from(document.querySelectorAll('.main-nav .mobile-links')).map((element, i)=> {
+            element.style.color = 'white';
+          });
+          e.target.style.color = '#e83e8c';
         this.toggleMenu()
         clearTimeout(this.timeout);
         this.timeout = setTimeout(() => {
@@ -28,11 +33,11 @@ class MobileMenu extends Component {
                 </button>
             <nav className="main-nav" id="main-nav">
                 <ul>
-                    <li onClick={this.handleMobileLinkChange}><span data-id="Home">Home</span></li>
-                    <li onClick={this.handleMobileLinkChange}><span data-id="About">About</span></li>
-                    <li onClick={this.handleMobileLinkChange}><span data-id="Services">Services</span></li>
-                    <li onClick={this.handleMobileLinkChange}><span data-id="Portfolio">Portfolio</span></li>
-                    <li onClick={this.handleMobileLinkChange}><span data-id="Contact">Contact</span></li>
+                    <li onClick={this.handleMobileLinkChange}><span data-id="Home" className="mobile-links mobile-home">Home</span></li>
+                    <li onClick={this.handleMobileLinkChange}><span data-id="About" className="mobile-links">About</span></li>
+                    <li onClick={this.handleMobileLinkChange}><span data-id="Services" className="mobile-links">Services</span></li>
+                    <li onClick={this.handleMobileLinkChange}><span data-id="Portfolio" className="mobile-links">Portfolio</span></li>
+                    <li onClick={this.handleMobileLinkChange}><span data-id="Contact" className="mobile-links">Contact</span></li>
                 </ul>
             </nav>
             </div>

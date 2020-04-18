@@ -1,11 +1,4 @@
 .abt-sty-cover {
   color: white;
-  padding-top: 50px;
-}
-
-@media (max-width: 768px) {
-  .abt-sty-cover {
-    padding-top: 70px;
-  }
 }
 /*# sourceMappingURL=About.css.map */
