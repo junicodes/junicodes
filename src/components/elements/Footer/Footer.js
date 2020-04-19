@@ -28,7 +28,12 @@ class Footer extends Component {
         return (
             <div className="footer-sty-cover col-12 row mx-0 px-0">
                 <div className="col-1 page-number">
-                    <h1>&#49;</h1>
+                {this.props.page === "Home" ? <h1>&#49;</h1> : null}
+                {this.props.page === "About" ? <h1>&#50;</h1> : null}
+                {this.props.page === "Services" ? <h1>&#51;</h1> : null}
+                {this.props.page === "Portfolio" ? <h1>&#52;</h1> : null}
+                {this.props.page === "Contact" ? <h1>&#53;</h1> : null}
+
                 </div>
                 <div className="col-5 testimonials">
                      {this.state.testimonialFlicker === 1 ? 
@@ -91,7 +96,7 @@ class Footer extends Component {
                             <span className="pr-2 a">Primesoft Limited</span>
                             <span className="px-2 b">NdieCodes</span>
                             <span className="px-2 c">Mayowa</span>
-                            <span className="px-2 d">Godwin Ageda</span>
+                            <span className="px-2 d">Godwin Agehda</span>
                             <span className="px-2 e">HNG Internship</span>
                         </div>
                         <span className="col-12 mt-3 copy-right">Copyright © 2020 Junicodes | All rights reserved</span>

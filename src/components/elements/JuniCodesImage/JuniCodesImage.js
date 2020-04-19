@@ -9,7 +9,7 @@ const JuniCodesImage = () => {
                          marginLeft: '7vh', 
                          filter: 'drop-shadow(16px 16px 10px rgba(0,0,0,0.9))'
                         }} 
-                 src="./images/personal/junicodes.png" />
+                 src="./images/personal/junicodes.png" alt="Junicodes" />
         </div>
     )
 }

@@ -59,31 +59,8 @@
   cursor: pointer;
   text-decoration: underline;
   text-underline-position: under;
-}
-
-.footer-sty-cover .recommendation-cover .a {
-  -webkit-text-decoration-color: red;
-          text-decoration-color: red;
-}
-
-.footer-sty-cover .recommendation-cover .b {
-  -webkit-text-decoration-color: skyblue;
-          text-decoration-color: skyblue;
-}
-
-.footer-sty-cover .recommendation-cover .c {
-  -webkit-text-decoration-color: indianred;
-          text-decoration-color: indianred;
-}
-
-.footer-sty-cover .recommendation-cover .d {
-  -webkit-text-decoration-color: yellow;
-          text-decoration-color: yellow;
-}
-
-.footer-sty-cover .recommendation-cover .e {
-  -webkit-text-decoration-color: lightgreen;
-          text-decoration-color: lightgreen;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
 }
 
 .footer-sty-cover .recommendation-cover span:hover {

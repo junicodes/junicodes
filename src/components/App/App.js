@@ -9,11 +9,13 @@ import Contact from "../paths/Contact/Contact";
 
 class App extends Component {
     state = {
-        current_link: "Home"
+        current_link: "Home",
+        page: "Home"
     }
    
     //Trigger the Link switch
     handleLinkSwitch = (link) => {
+        this.setState({page: link})
         this.setState({current_link: link})
     }
 
@@ -26,7 +28,7 @@ class App extends Component {
                      {this.state.current_link === 'Services' ? <Services/> : null}
                      {this.state.current_link === 'Portfolio' ? <Portfolio/> : null}
                      {this.state.current_link === 'Contact' ? <Contact/> : null}
-                    <Footer/>
+                    <Footer page={this.state.page}/>
                 </React.Fragment>
             )
         }

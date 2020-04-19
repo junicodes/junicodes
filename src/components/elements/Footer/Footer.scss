@@ -52,23 +52,9 @@
             cursor: pointer;
             text-decoration: underline;
             text-underline-position: under;
+            text-decoration-color: white;
         }
-        .a {
-            text-decoration-color: red;
-        } 
-        .b {
-            text-decoration-color: skyblue;
-        }
-        .c {
-            text-decoration-color:  indianred;
-        }
-        .d{
-            text-decoration-color: yellow;
-        }
-        .e {
-            text-decoration-color: lightgreen;
-        }
-
+    
         span:hover {
             color: #e83e8c;
             transform: scale(1.000);
