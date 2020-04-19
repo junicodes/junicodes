@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Special+Elite&display=swap");
 .firstshowcase-sty-cover {
   height: 100%;
 }
 
 .firstshowcase-sty-cover div {
-  height: 100%;
   color: white;
-  font-size: 3vh;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Special Elite', cursive;
 }
 /*# sourceMappingURL=FirstShowCase.css.map */

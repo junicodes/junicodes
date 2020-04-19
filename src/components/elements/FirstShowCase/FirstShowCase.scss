@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Special+Elite&display=swap');
 
 .firstshowcase-sty-cover {
     height: 100%;
     div {
-        height: 100%;
         color: white;
-        font-size: 3vh;
-        font-family: 'Press Start 2P', cursive;
+        font-family: 'Special Elite', cursive;
     }
-    .text-noted {
-        // background: blue;
-    }
-    .image-grid {
-        // background: yellow;
+}
+@media(max-width: 768px){
+    .firstshowcase-sty-cover {
+       
     }
 }

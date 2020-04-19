@@ -7,7 +7,7 @@
     bottom: 0;
     z-index: 999999;
     @media(max-width: 768px) {
-        height: 80px;
+       display: none;
          
      }
     @media(max-height: 550px) {

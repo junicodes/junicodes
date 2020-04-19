@@ -21,7 +21,7 @@ class App extends Component {
             return (
                 <React.Fragment>
                     <Header onSelectLinkSwitch={this.handleLinkSwitch}/>
-                     {this.state.current_link === 'Home' ? <Home/> : null}
+                     {this.state.current_link === 'Home' ? <Home onTriggerToMeClick={this.handleLinkSwitch}/> : null}
                      {this.state.current_link === 'About' ? <About/> : null}
                      {this.state.current_link === 'Services' ? <Services/> : null}
                      {this.state.current_link === 'Portfolio' ? <Portfolio/> : null}

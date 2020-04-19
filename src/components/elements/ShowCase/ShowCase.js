@@ -26,8 +26,8 @@ class ShowCase extends Component {
 
     render(){
         return (
-            <div className="col-12 border showcase-sty-cover">
-                {1 === 1 ? <FirstShowCase /> : null}
+            <div className="col-12 showcase-sty-cover">
+                {1 === 1 ? <FirstShowCase onByPassClick={this.props.onTalkToMeClick}/> : null}
                 {/* {this.state.imageFlicker === 2 ? <SecoundShowCase/> : null}
                 {this.state.imageFlicker === 3 ? <ThirdShowCase /> : null} */}
             </div>

@@ -4,11 +4,11 @@ import './Home.css';
 
 
 class Home extends Component{
-  
+ 
     render() {
         return(
             <div className="home-sty-cover">
-                <ShowCase />
+                <ShowCase onTalkToMeClick={this.props.onTriggerToMeClick}/>
             </div>
         )
     }

@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
   .footer-sty-cover {
-    height: 80px;
+    display: none;
   }
 }
 

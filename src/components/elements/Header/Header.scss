@@ -22,11 +22,17 @@
     }
     .header-link {
         color: white;
+        transition: 0.2s all ease;
         font-weight: bold;
         font-size: 2.1vh;
         cursor: pointer;
-        .home {
+        .color-tweak {
             color: #e83e8c;
+            filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
+        }
+        .home {
+            transform: scale(1.000);
+            transform: scale(1.000);
         }
         ul {
             float: right;
@@ -41,14 +47,20 @@
         }
         ul li:hover{
             color: #e83e8c;
+            filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
+            transform: scale(1.000);
             transform: scale(1.000);
         }
         ul li:focus{
             color: #e83e8c;
+            filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
+            transform: scale(1.000);
             transform: scale(1.000);
         }
         ul li:active{
             color: #e83e8c;
+            filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
+            transform: scale(1.000);
             transform: scale(1.000);
         }
     }
@@ -63,7 +75,7 @@
         }
         .header-logo {
             font-size: 5vh;
-            margin-top: 15px;
+            margin-top: 12px;
             margin-left: 10px;
             z-index: 999;
             padding-left: 20px;
@@ -76,7 +88,7 @@
 @media(max-width: 500px) {
     .header-sty-cover {
         .header-logo {
-            font-size: 3vh;
+            font-size: 2.5vh;
         }
         code span {
             font-size: 4.5vh;

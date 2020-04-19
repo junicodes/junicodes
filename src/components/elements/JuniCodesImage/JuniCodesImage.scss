@@ -1,0 +1,16 @@
+.junicodesimage-sty-cover {
+    height: 80%;
+    width: 100%;
+    margin-top: 10vh;
+}
+@media(max-width: 991px) {
+    .junicodesimage-sty-cover {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    .junicodesimage-sty-cover {
+        display: none;
+    }
+}

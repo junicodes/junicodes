@@ -23,13 +23,17 @@ class Header extends Component {
   
   handleLinkChange = (e) => {
     const link = e.target.dataset.id
-    Array.from(document.querySelectorAll('.laptop-links')).map((element, i)=> {
-      element.style.color = 'white';
-    });
-    e.target.style.color = '#e83e8c';
-    
-    clearTimeout(this.timeout);
 
+    Array.from(document.querySelectorAll('.laptop-links')).map((element, i)=> {
+      const checkIfClass = element.classList.contains('color-tweak');
+        if(checkIfClass){
+          element.classList.remove('color-tweak') 
+        }
+    });
+
+    e.target.classList.add('color-tweak');
+    clearTimeout(this.timeout);
+    
     this.timeout = setTimeout(() => {
        this.props.onSelectLinkSwitch(link)
     }, 10);
@@ -50,7 +54,7 @@ class Header extends Component {
                       : 
                       <div className="col-9 header-link">
                         <ul className="list-group list-group-horizontal">
-                          <li onClick={this.handleLinkChange} data-id="Home" className="list-group-item laptop-links home">Home</li>
+                          <li onClick={this.handleLinkChange} data-id="Home" className="list-group-item laptop-links color-tweak home">Home</li>
                           <li onClick={this.handleLinkChange} data-id="About" className="list-group-item laptop-links">About</li>
                           <li onClick={this.handleLinkChange} data-id="Services" className="list-group-item laptop-links">Services</li>
                           <li onClick={this.handleLinkChange} data-id="Portfolio" className="list-group-item laptop-links">Portfolio</li>
