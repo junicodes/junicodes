@@ -4,7 +4,7 @@
   width: 100%;
   position: fixed;
   z-index: 99999;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(37, 37, 37, 0.6);
 }
 
 .header-sty-cover div {
@@ -38,12 +38,6 @@
           filter: invert(34%) sepia(96%) saturate(1990%) hue-rotate(310deg) brightness(95%) contrast(91%);
 }
 
-.header-sty-cover .header-link .home {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  transform: scale(1);
-}
-
 .header-sty-cover .header-link ul {
   float: right;
   background: none;
@@ -52,7 +46,7 @@
 .header-sty-cover .header-link ul li {
   background: none;
   border: none;
-  padding: 0.70vw 0.5vw;
+  padding: 0.90vw 0.9vw;
   -webkit-transition: 0.2s all ease;
   transition: 0.2s all ease;
 }

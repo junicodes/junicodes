@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  background: black;
+  background: #252525;
   /* background: url('./wallpaper/black-background.png') black;
   background-size: cover; */
 }

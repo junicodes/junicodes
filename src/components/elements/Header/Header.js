@@ -54,7 +54,7 @@ class Header extends Component {
                       : 
                       <div className="col-9 header-link">
                         <ul className="list-group list-group-horizontal">
-                          <li onClick={this.handleLinkChange} data-id="Home" className="list-group-item laptop-links color-tweak home">Home</li>
+                          <li onClick={this.handleLinkChange} data-id="Home" className="list-group-item laptop-links color-tweak">Home</li>
                           <li onClick={this.handleLinkChange} data-id="About" className="list-group-item laptop-links">About</li>
                           <li onClick={this.handleLinkChange} data-id="Services" className="list-group-item laptop-links">Services</li>
                           <li onClick={this.handleLinkChange} data-id="Portfolio" className="list-group-item laptop-links">Portfolio</li>

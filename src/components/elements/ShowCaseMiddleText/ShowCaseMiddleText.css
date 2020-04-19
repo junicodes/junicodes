@@ -2,13 +2,13 @@
   text-align: center;
   width: 100%;
   color: white;
-  top: 40%;
+  top: 35%;
   position: absolute;
   vertical-align: middle;
 }
 
 .showcasemiddle-text-sty-cover h1 {
-  font-size: 9.5vh;
+  font-size: 11vh;
 }
 
 .showcasemiddle-text-sty-cover p {
@@ -37,10 +37,10 @@
 
 @media (max-width: 991px) {
   .showcasemiddle-text-sty-cover {
-    top: 70%;
+    top: 80%;
   }
   .showcasemiddle-text-sty-cover h1 {
-    font-size: 9vh;
+    font-size: 10vh;
   }
   .showcasemiddle-text-sty-cover button {
     height: 5vh;
@@ -50,7 +50,7 @@
 
 @media (max-width: 500px) {
   .showcasemiddle-text-sty-cover {
-    top: 50%;
+    top: 70%;
   }
   .showcasemiddle-text-sty-cover h1 {
     font-size: 7.5vh;
