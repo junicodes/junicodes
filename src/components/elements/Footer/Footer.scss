@@ -18,9 +18,11 @@
     .testimonials {
         height: 100%;
 
-        a{
+        a  {
             text-decoration: none;
-            color: white;
+            p {
+                color: white;
+            }
         }
         blockquote {
             font-size: 2vh;
@@ -38,14 +40,18 @@
             color: white;
             padding: 0;
         }
-        a:hover {
+        a p:hover {
             color: #e83e8c;
         }
     }
     .recommendation-cover {
         height: 100%;
         p{
+            text-align: center;
             font-size: 2vh;
+        }
+        .link {
+            text-align: center;
         }
         span {
             font-size: 2vh;
@@ -69,12 +75,43 @@
 
     }
     @media(max-width: 768px) {
-       display: none;
-         
+     //  display: none;
+        .testimonials {
+            blockquote {
+                font-size: 1.8vh;
+                margin: 0vh 1vh 0vh 0vh;
+                span {
+                    font-size: 3vh;
+                }
+            }
+        }
+        .copy-right {
+            font-size: 1.0vh;
+            text-align: center;
+        }
+        .recommendation-cover {
+            p{
+                text-align: center;
+            }
+            span {
+                text-align: center;
+            }
+        }
      }
     @media(max-height: 550px) {
        display: none;
-        
+        .testimonials {
+            display: none;
+        }
     }
+    @media(max-width: 500px) {
+         .testimonials {
+             display: none;
+         }
+         span {
+            font-size: 1.5vh;
+        }
+        
+     }
     
 }

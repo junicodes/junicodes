@@ -23,19 +23,22 @@ class Footer extends Component {
         this.setState({testimonialFlicker: this.state.testimonialFlicker + 1})
         : this.setState({testimonialFlicker: 1});
     }
+    openRecomendation = (e) => {
+        const link = e.target.dataset.link;
+        window.open(link, '_blank');
+    }
 
     render(){
         return (
             <div className="footer-sty-cover col-12 row mx-0 px-0">
                 <div className="col-1 page-number">
-                {this.props.page === "Home" ? <h1>&#49;</h1> : null}
-                {this.props.page === "About" ? <h1>&#50;</h1> : null}
-                {this.props.page === "Services" ? <h1>&#51;</h1> : null}
-                {this.props.page === "Portfolio" ? <h1>&#52;</h1> : null}
-                {this.props.page === "Contact" ? <h1>&#53;</h1> : null}
-
+                    {this.props.page === "Home" ? <h1>&#49;</h1> : null}
+                    {this.props.page === "About" ? <h1>&#50;</h1> : null}
+                    {this.props.page === "Services" ? <h1>&#51;</h1> : null}
+                    {this.props.page === "Portfolio" ? <h1>&#52;</h1> : null}
+                    {this.props.page === "Contact" ? <h1>&#53;</h1> : null}
                 </div>
-                <div className="col-5 testimonials">
+                <div className="col-0 col-md-5 col-lg-5 testimonials">
                      {this.state.testimonialFlicker === 1 ? 
                         <div className="animated fadeIn">
                             <blockquote className="testionial-text">
@@ -51,8 +54,7 @@ class Footer extends Component {
                                     </small>
                                 </p>
                             </a>
-                        </div>
-                     : null}
+                        </div> : null}
 
                       {this.state.testimonialFlicker === 2 ? 
                         <div className="animated fadeIn">
@@ -78,7 +80,8 @@ class Footer extends Component {
                             </blockquote>
             
                             <a href="#">
-                                <p className="mt-2"><small className="testimonial-name">Mr Andy Obiefuna </small>
+                                <p className="mt-2">
+                                    <small className="testimonial-name">Mr Andy Obiefuna </small>
                                     <small className="testimonial-company">
                                         (Founder and CEO Delivery Riders)
                                     </small>
@@ -89,17 +92,17 @@ class Footer extends Component {
                     
                  </div>
 
-                <div className="col-6 recommendation-cover">
-                    <div className="recomendations col-12 row">
-                        <p className="col-12 mt-3 mb-0 p-0">Recomendations</p>
-                        <div className="col-12 p-0">
-                            <span className="pr-2 a">Primesoft Limited</span>
-                            <span className="px-2 b">NdieCodes</span>
-                            <span className="px-2 c">Mayowa</span>
-                            <span className="px-2 d">Godwin Agehda</span>
-                            <span className="px-2 e">HNG Internship</span>
+                <div className="col-10 col-md-6 col-lg-6 recommendation-cover">
+                    <div className="recomendations pl-2 p-0 col-12 row">
+                        <p className="col-12 pl-3 mt-3 mb-0 p-0">Recomendations</p>
+                        <div className="link pl-3 col-12 p-0">
+                            <span onClick={this.openRecomendation} data-link="https://www.linkedin.com/company/primedsoft" className="pr-1 pr-lg-2  a">Primesoft</span>
+                            <span onClick={this.openRecomendation} data-link="https://ndiecodes.github.io" className="px-1 px-lg-2 b">NdieCodes</span>
+                            <span onClick={this.openRecomendation} data-link="https://www.stakeholderdemocracy.org" className="px-1 px-lg-2 c">SDN</span>
+                            <span onClick={this.openRecomendation} data-link="https://www.mayowafadairo.com" className="px-1 px-lg-2 d">Mayowa</span>
+                            <span onClick={this.openRecomendation} data-link="https://hng.tech" className="px-1 px-lg-2 e">HNG</span>
                         </div>
-                        <span className="col-12 mt-3 copy-right">Copyright © 2020 Junicodes | All rights reserved</span>
+                        <span className="col-12 mt-1 mt-md-3 mt-lg-3 copy-right">Copyright © 2020 Junicodes | All rights reserved</span>
                     </div>
                 </div>
             </div>

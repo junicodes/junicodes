@@ -21,6 +21,9 @@
 
 .footer-sty-cover .testimonials a {
   text-decoration: none;
+}
+
+.footer-sty-cover .testimonials a p {
   color: white;
 }
 
@@ -42,7 +45,7 @@
   padding: 0;
 }
 
-.footer-sty-cover .testimonials a:hover {
+.footer-sty-cover .testimonials a p:hover {
   color: #e83e8c;
 }
 
@@ -51,7 +54,12 @@
 }
 
 .footer-sty-cover .recommendation-cover p {
+  text-align: center;
   font-size: 2vh;
+}
+
+.footer-sty-cover .recommendation-cover .link {
+  text-align: center;
 }
 
 .footer-sty-cover .recommendation-cover span {
@@ -78,14 +86,40 @@
 }
 
 @media (max-width: 768px) {
-  .footer-sty-cover {
-    display: none;
+  .footer-sty-cover .testimonials blockquote {
+    font-size: 1.8vh;
+    margin: 0vh 1vh 0vh 0vh;
+  }
+  .footer-sty-cover .testimonials blockquote span {
+    font-size: 3vh;
+  }
+  .footer-sty-cover .copy-right {
+    font-size: 1.0vh;
+    text-align: center;
+  }
+  .footer-sty-cover .recommendation-cover p {
+    text-align: center;
+  }
+  .footer-sty-cover .recommendation-cover span {
+    text-align: center;
   }
 }
 
 @media (max-height: 550px) {
   .footer-sty-cover {
     display: none;
+  }
+  .footer-sty-cover .testimonials {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-sty-cover .testimonials {
+    display: none;
+  }
+  .footer-sty-cover span {
+    font-size: 1.5vh;
   }
 }
 /*# sourceMappingURL=Footer.css.map */
