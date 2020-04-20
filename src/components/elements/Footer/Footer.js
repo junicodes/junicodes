@@ -38,7 +38,7 @@ class Footer extends Component {
                     {this.props.page === "Portfolio" ? <h1>&#52;</h1> : null}
                     {this.props.page === "Contact" ? <h1>&#53;</h1> : null}
                 </div>
-                <div className="col-0 col-md-5 col-lg-5 testimonials">
+                <div className="col-0 col-md-0 col-lg-5 testimonials">
                      {this.state.testimonialFlicker === 1 ? 
                         <div className="animated fadeIn">
                             <blockquote className="testionial-text">
@@ -92,7 +92,7 @@ class Footer extends Component {
                     
                  </div>
 
-                <div className="col-10 col-md-6 col-lg-6 recommendation-cover">
+                <div className="col-10 col-md-5 col-lg-6 recommendation-cover">
                     <div className="recomendations pl-2 p-0 col-12 row">
                         <p className="col-12 pl-3 mt-3 mb-0 p-0">Recomendations</p>
                         <div className="link pl-3 col-12 p-0">
