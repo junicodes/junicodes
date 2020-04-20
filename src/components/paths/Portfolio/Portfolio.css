@@ -1,11 +1,142 @@
 .portfolio-sty-cover {
   color: white;
-  padding-top: 50px;
+  width: 100%;
+  padding-top: 8vh;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.portfolio-sty-cover .heading {
+  text-align: center;
+  height: 5vh;
+}
+
+.portfolio-sty-cover .heading h3 {
+  font-size: 3.5vh;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #e83e8c;
+          text-decoration-color: #e83e8c;
+  text-underline-position: under;
+}
+
+.portfolio-sty-cover .ibuild {
+  height: 70vh;
+}
+
+.portfolio-sty-cover .ibuild .block {
+  height: 105vh;
+}
+
+.portfolio-sty-cover .ibuild .block div {
+  width: 33.3%;
+}
+
+.portfolio-sty-cover .ibuild .block div .build-show {
+  border: 1px solid grey;
+  border-radius: 1vh;
+  border-bottom-right-radius: 3vh;
+  -webkit-box-shadow: 5px 10px #494949;
+          box-shadow: 5px 10px #494949;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio-sty-cover .ibuild .block div h5 {
+  font-size: 3vh;
+  border-left: 0.5vh solid  #e83e8c;
+  padding: 2vh 2vh 2vh 2vh;
+}
+
+.portfolio-sty-cover .ibuild .block div small {
+  font-size: 1.6vh;
+  font-style: italic;
+  padding: 2vh 2vh 2vh 2vh;
+}
+
+.portfolio-sty-cover .ibuild .block div p {
+  font-size: 2vh;
+  text-align: justify;
+  padding: 2vh 2vh 2vh 2vh;
 }
 
 @media (max-width: 768px) {
   .portfolio-sty-cover {
-    padding-top: 70px;
+    padding-top: 15vh;
   }
+}
+
+@media (max-width: 650px) {
+  .portfolio-sty-cover .ibuild {
+    height: 60vh;
+  }
+  .portfolio-sty-cover .ibuild .block {
+    height: 150vh;
+  }
+  .portfolio-sty-cover .ibuild .block div {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .portfolio-sty-cover {
+    padding-top: 15vh;
+  }
+  .portfolio-sty-cover .ibuild {
+    height: 60vh;
+  }
+  .portfolio-sty-cover .ibuild .block {
+    height: 400vh;
+  }
+  .portfolio-sty-cover .ibuild .block div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .portfolio-sty-cover {
+    padding-top: 15vh;
+  }
+  .portfolio-sty-cover .ibuild {
+    height: 60vh;
+  }
+  .portfolio-sty-cover .ibuild .block {
+    height: 350vh;
+  }
+  .portfolio-sty-cover .ibuild .block div {
+    width: 100%;
+  }
+}
+
+.portfolio-sty-cover .scroller {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  cursor: pointer;
+}
+
+.portfolio-sty-cover .scroller::-webkit-scrollbar {
+  width: 1vh;
+}
+
+.portfolio-sty-cover .scroller::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px none;
+          box-shadow: inset 0 0 5px none;
+  border-radius: 10px;
+}
+
+.portfolio-sty-cover .scroller::-webkit-scrollbar-track:hover {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+}
+
+.portfolio-sty-cover .scroller::-webkit-scrollbar-thumb {
+  background: #e83e8c;
+  border-radius: 10px;
+}
+
+.portfolio-sty-cover .scroller::-webkit-scrollbar-thumb:hover {
+  background: none;
+  border: 1px solid #e83e8c;
 }
 /*# sourceMappingURL=Portfolio.css.map */

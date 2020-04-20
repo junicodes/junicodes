@@ -9,7 +9,7 @@ const About = () => {
                 <div className="heading col-6 mx-auto">
                     <h3>About Me</h3>
                 </div>
-                <div className="about-me col-12 col-lg-8 mx-auto mt-3">
+                <div className="about-me col-12 col-lg-9 mx-auto mt-3">
                     <article className="mt-2 animated fadeIn" style={{animationDelay: '0.1s', 
                         animationTimingFunction: 'linear'
                         }}>   

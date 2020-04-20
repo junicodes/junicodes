@@ -9,25 +9,40 @@ const Contact = () => {
                     <h3>Services</h3>
                 </div>
                 <div className="services">
-                    <div className="block-1 col-12 row mx-auto mt-4">
-                        <div className="col-6 mx-auto">
+                    <div className="block-1 col-12 col-lg-10 row mx-auto mt-2">
+                        <div className="col-12 col-md-6 col-lg-6 mx-auto animated fadeIn" style={{animationDelay: '0.2s', 
+                        animationTimingFunction: 'linear'
+                        }}>
                             <h5>Web Development</h5>
                             <p>
                                 I can completely build a responsible web app using technologies 
-                                such as Laravel or NodeJs framework for your Backend APIs and HTML/CSS, ReactJS or Vanilla JavaScript
+                                such as 
+                                <b style={{color: 'skyblue'}}> Laravel </b> 
+                                 or 
+                                <b style={{color: 'skyblue'}}> NodeJS </b> 
+                                framework for your Backend APIs and 
+                                <b style={{color: 'skyblue'}}> HTML/CSS</b>, 
+                                <b style={{color: 'skyblue'}}> ReactJS</b>, Vanilla
+                                or <b style={{color: 'skyblue'}}> JavaScript </b>
                                 for Frontend.
                             </p>
                         </div>
-                        <div className="col-6 mx-auto">
+                        <div className="col-12 col-md-6 col-lg-6 mx-auto animated fadeIn" style={{animationDelay: '0.4s', 
+                        animationTimingFunction: 'linear'
+                        }}>
                             <h5>Mobile Development</h5>
                             <p>
-                                I use React Native framework to build native mobile app for android and ios,
-                                i also covert web app to mobile app for both android and ios using Cordova framwork.
+                                I use <b style={{color: 'skyblue'}}> React Native</b>
+                                framework to build native mobile app for android and ios,
+                                i also convert web app to mobile app for both android and ios using 
+                                <b style={{color: 'skyblue'}}> Cordova</b> framework.
                             </p>
                         </div>
                     </div>
-                    <div className="block-2 col-12 mx-auto row mt-4">
-                        <div className="col-6">
+                    <div className="block-2 col-12 col-lg-10 mx-auto row mt-2">
+                        <div className="col-12 col-md-6 col-lg-6 mx-auto animated fadeIn" style={{animationDelay: '0.6s', 
+                        animationTimingFunction: 'linear'
+                        }}>
                             <h5>Team/Project Mgt</h5>
                             <p>
                                 I have the ledership skills for managing your teams and projects, 
@@ -35,8 +50,10 @@ const Contact = () => {
                                 enabling me to mitigate basic and unforeseen errors. 
                             </p>
                         </div>
-                        <div className="col-6">
-                            <h5>Tutorial</h5>
+                        <div className="col-12 col-md-6 col-lg-6 mx-auto animated fadeIn" style={{animationDelay: '0.8s', 
+                        animationTimingFunction: 'linear'
+                        }}>
+                            <h5>Programming Tutorial</h5>
                             <p>
                                 I love to teach and i am always ready to educate young aspiring developer's how to code 
                                 and become successful, i have a youtube channel where i teach solution to various programming problems.

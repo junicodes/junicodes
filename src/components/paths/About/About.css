@@ -12,6 +12,10 @@
 
 .abt-sty-cover .heading h3 {
   font-size: 3.5vh;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #e83e8c;
+          text-decoration-color: #e83e8c;
+  text-underline-position: under;
 }
 
 .abt-sty-cover .about-me {

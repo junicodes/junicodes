@@ -68,19 +68,31 @@
 
 @media (max-width: 768px) {
   .socialmedia-nav-sty-cover {
-    width: 4vw;
+    width: 4.5vw;
   }
   .socialmedia-nav-sty-cover .social div .social-name {
     margin-left: 5.7vw;
   }
 }
 
+@media (max-width: 630px) {
+  .socialmedia-nav-sty-cover {
+    width: 6vw;
+  }
+}
+
 @media (max-width: 500px) {
   .socialmedia-nav-sty-cover {
-    width: 10vw;
+    width: 8vw;
   }
   .socialmedia-nav-sty-cover .social div .social-name {
     margin-left: 10.5vw;
+  }
+}
+
+@media (max-width: 370px) {
+  .socialmedia-nav-sty-cover {
+    width: 10vw;
   }
 }
 /*# sourceMappingURL=SocialMediaNav.css.map */

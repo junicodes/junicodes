@@ -12,6 +12,10 @@
 
 .services-sty-cover .heading h3 {
   font-size: 3.5vh;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #e83e8c;
+          text-decoration-color: #e83e8c;
+  text-underline-position: under;
 }
 
 .services-sty-cover .services {
@@ -36,17 +40,39 @@
   .services-sty-cover {
     padding-top: 15vh;
   }
-  .services-sty-cover h5 {
-    text-align: center;
+  .services-sty-cover .services .block-1, .services-sty-cover .services .block-2 {
+    height: 30vh;
   }
-  .services-sty-cover p {
-    text-align: justify;
+  .services-sty-cover .services h5 {
+    font-size: 2.5vh;
+  }
+  .services-sty-cover .services p {
+    font-size: 2vh;
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 500px) {
+  .services-sty-cover .services .block-1, .services-sty-cover .services .block-2 {
+    height: 28vh;
+    padding: 0;
+  }
+  .services-sty-cover .services h5 {
+    font-size: 2.2vh;
+  }
+  .services-sty-cover .services p {
+    font-size: 1.8vh;
+  }
+}
+
+@media (max-width: 410px) {
   .services-sty-cover .heading h3 {
     font-size: 3.5vh;
+  }
+  .services-sty-cover .services h5 {
+    font-size: 2vh;
+  }
+  .services-sty-cover .services p {
+    font-size: 1.6vh;
   }
 }
 /*# sourceMappingURL=Services.css.map */
