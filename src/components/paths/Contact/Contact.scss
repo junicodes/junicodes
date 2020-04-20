@@ -1,7 +1,56 @@
 .contact-sty-cover {
     color: white;
-    padding-top: 50px;
-    @media(max-width: 768px) {
-        padding-top: 70px;
+    height: 100%;
+    width: 100%;
+    padding-top: 8vh;
+    .heading {
+        text-align: center;
+        height: 5vh;
     }
+    .heading h3 {
+        font-size: 3.5vh;
+        text-decoration: underline;
+        text-decoration-color: #e83e8c;
+        text-underline-position: under;
+    }
+    .contact-grid {
+        height: 70vh;
+        .contact-info {
+            height: 100%;
+            a {
+                color:#e83e8c;
+                cursor: pointer;
+            }
+        }
+        .contact-form {
+            height: 100%;
+
+            form {
+                button {
+                    border-color: #e83e8c;
+                    background: none;
+                    color: white;
+                    box-shadow: 5px 5px #494949;
+                    font-weight: bold;
+                    font-family: 'Special Elite', cursive;;
+                }
+                button:hover {
+                    border-color: white;
+                    color: #e83e8c;
+                }
+                button:active {
+                    border-color: white;
+                    color: #e83e8c;
+                    background: none;
+                }
+                button:focus {
+                    border-color: white;
+                    color: #e83e8c;
+                    background: none;
+                }
+            }
+        }
+        
+    }
+    
 }

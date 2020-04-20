@@ -19,6 +19,9 @@
 .showcasemiddle-text-sty-cover button {
   border-right: 1px solid #e83e8c;
   border-bottom: 1px solid #e83e8c;
+  -webkit-box-shadow: 5px 5px #494949;
+          box-shadow: 5px 5px #494949;
+  border-radius: 5px;
   background: none;
   height: 5vh;
   width: 12vw;
