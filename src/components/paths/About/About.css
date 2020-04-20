@@ -10,6 +10,10 @@
   height: 5vh;
 }
 
+.abt-sty-cover .heading h3 {
+  font-size: 3.5vh;
+}
+
 .abt-sty-cover .about-me {
   height: 60vh;
   border-color: grey !important;
@@ -18,6 +22,7 @@
 .abt-sty-cover .about-me article {
   text-align: justify;
   line-height: 4.2vh;
+  font-size: 2.4vh;
 }
 
 @media (max-width: 885px) {
