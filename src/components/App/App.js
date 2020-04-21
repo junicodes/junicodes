@@ -23,11 +23,11 @@ class App extends Component {
             return (
                 <React.Fragment>
                     <Header onSelectLinkSwitch={this.handleLinkSwitch}/>
-                     {this.state.current_link === 'Contact' ? <Home onTriggerToMeClick={this.handleLinkSwitch}/> : null}
+                     {this.state.current_link === 'Home' ? <Home onTriggerToMeClick={this.handleLinkSwitch}/> : null}
                      {this.state.current_link === 'About' ? <About/> : null}
                      {this.state.current_link === 'Services' ? <Services/> : null}
                      {this.state.current_link === 'Portfolio' ? <Portfolio/> : null}
-                     {this.state.current_link === 'Home' ? <Contact/> : null}
+                     {this.state.current_link === 'Contact' ? <Contact/> : null}
                     <Footer page={this.state.page}/>
                 </React.Fragment>
             )
