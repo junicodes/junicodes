@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/junicodes.github.io/static/css/main.98a562fb.chunk.css",
-    "main.js": "/junicodes.github.io/static/js/main.5b244d95.chunk.js",
-    "main.js.map": "/junicodes.github.io/static/js/main.5b244d95.chunk.js.map",
-    "runtime-main.js": "/junicodes.github.io/static/js/runtime-main.bb93d4cb.js",
-    "runtime-main.js.map": "/junicodes.github.io/static/js/runtime-main.bb93d4cb.js.map",
-    "static/css/2.89f067aa.chunk.css": "/junicodes.github.io/static/css/2.89f067aa.chunk.css",
-    "static/js/2.361e057f.chunk.js": "/junicodes.github.io/static/js/2.361e057f.chunk.js",
-    "static/js/2.361e057f.chunk.js.map": "/junicodes.github.io/static/js/2.361e057f.chunk.js.map",
-    "index.html": "/junicodes.github.io/index.html",
-    "precache-manifest.b9e01f30ba70dae26841f8a4466a3e17.js": "/junicodes.github.io/precache-manifest.b9e01f30ba70dae26841f8a4466a3e17.js",
-    "service-worker.js": "/junicodes.github.io/service-worker.js",
-    "static/css/2.89f067aa.chunk.css.map": "/junicodes.github.io/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.98a562fb.chunk.css.map": "/junicodes.github.io/static/css/main.98a562fb.chunk.css.map",
-    "static/js/2.361e057f.chunk.js.LICENSE.txt": "/junicodes.github.io/static/js/2.361e057f.chunk.js.LICENSE.txt"
+    "main.css": "/junicodes/static/css/main.98a562fb.chunk.css",
+    "main.js": "/junicodes/static/js/main.6bf1702f.chunk.js",
+    "main.js.map": "/junicodes/static/js/main.6bf1702f.chunk.js.map",
+    "runtime-main.js": "/junicodes/static/js/runtime-main.e0eca517.js",
+    "runtime-main.js.map": "/junicodes/static/js/runtime-main.e0eca517.js.map",
+    "static/css/2.89f067aa.chunk.css": "/junicodes/static/css/2.89f067aa.chunk.css",
+    "static/js/2.361e057f.chunk.js": "/junicodes/static/js/2.361e057f.chunk.js",
+    "static/js/2.361e057f.chunk.js.map": "/junicodes/static/js/2.361e057f.chunk.js.map",
+    "index.html": "/junicodes/index.html",
+    "precache-manifest.83b77467474e907858f0c7e075a7f479.js": "/junicodes/precache-manifest.83b77467474e907858f0c7e075a7f479.js",
+    "service-worker.js": "/junicodes/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/junicodes/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.98a562fb.chunk.css.map": "/junicodes/static/css/main.98a562fb.chunk.css.map",
+    "static/js/2.361e057f.chunk.js.LICENSE.txt": "/junicodes/static/js/2.361e057f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb93d4cb.js",
+    "static/js/runtime-main.e0eca517.js",
     "static/css/2.89f067aa.chunk.css",
     "static/js/2.361e057f.chunk.js",
     "static/css/main.98a562fb.chunk.css",
-    "static/js/main.5b244d95.chunk.js"
+    "static/js/main.6bf1702f.chunk.js"
   ]
 }
