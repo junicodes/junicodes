@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../../packages/animate.css';
+import '../../../packages/scrollerdesign.css';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -17,7 +18,7 @@ const Portfolio = () => {
                                 }}>
                                 <a href="https://developnd.ng" target="_blank">
                                     <h5>DevelopND</h5>
-                                    <small>Tech Used: Laravel, HTML, SASS, JavaScript</small>
+                                    <p><small>Tech Used: Laravel, HTML, SASS, JavaScript</small></p>
                                     <p>This is a web app that tracks ongoing projects awarded to communities in Niger Delta Region of 
                                         Nigeria and also create the oppurturnity for community memeber to interact with project owners.
                                     </p>
@@ -30,7 +31,7 @@ const Portfolio = () => {
                                 }}>
                                 <a href="https://gateguard.co" target="_blank">
                                     <h5>GateGuard</h5>
-                                    <small>Tech Used: Laravel, Flutter, HTML, CSS, JavaScript</small>
+                                    <p><small>Tech Used: Laravel, Flutter, HTML, CSS, JavaScript</small></p>
                                     <p>This is a security estate management app, it was build as a mobile app
                                         that allows user to control thier visitors 
                                         and also help estates managers to manage there estate bills.
@@ -44,7 +45,7 @@ const Portfolio = () => {
                                 }}>
                                 <a href="https://ewoma.herokuapp.com" target="_blank">
                                     <h5>Ewoma Bot</h5>
-                                    <small>Tech Used: Node.js, Socket.io, JavaScript, Dialog Flow</small>
+                                    <p><small>Tech Used: Node.js, Socket.io, JavaScript, Dialog Flow</small></p>
                                     <p>An AI Bot that give information about covid-19 virus from all reliable sources,
                                         it also shares web links to get more information.</p>
                                 </a>
@@ -56,7 +57,7 @@ const Portfolio = () => {
                                 }}>
                                 <a href="https://primedpoll.com" target="_blank">
                                     <h5>Primedpoll</h5>
-                                    <small>Tech Used: Laravel, HTML, CSS, JavaScript, </small>
+                                    <p><small>Tech Used: Laravel, HTML, CSS, JavaScript, </small></p>
                                     <p>This is a polling site that allows a user to create and vote a poll.</p>
                                 </a>
                             </div>

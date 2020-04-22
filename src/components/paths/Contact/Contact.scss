@@ -1,3 +1,4 @@
+
 .contact-sty-cover {
     color: white;
     height: 100%;
@@ -17,14 +18,23 @@
         height: 70vh;
         .contact-info {
             height: 100%;
-            a {
+            color: white;
+            p{
+                font-size: 2vh;
+            }
+            span {
                 color:#e83e8c;
+                font-weight: bold;
+                font-family: 'Special Elite', cursive;
                 cursor: pointer;
+            }
+            span:hover {
+                text-decoration: underline;
+                text-underline-position: under;
             }
         }
         .contact-form {
             height: 100%;
-
             form {
                 button {
                     border-color: #e83e8c;
@@ -51,6 +61,25 @@
             }
         }
         
+    }
+    @media(max-width: 991px) {
+        .contact-grid {
+            .contact-info {
+                height: 45%;
+            }
+        }
+    }
+    @media(max-width: 768px) {
+        padding-top: 15vh;
+        .contact-grid {
+            height: 55vh;
+            .contact-info {
+                p{
+                    font-size: 1.5vh;
+                }
+               
+            }
+        }
     }
     
 }

@@ -52,9 +52,6 @@
 }
 
 @media (max-width: 370px) {
-  .abt-sty-cover .heading h3 {
-    font-size: 3.5vh;
-  }
   .abt-sty-cover .about-me article {
     text-align: justify;
     line-height: 2.5vh;

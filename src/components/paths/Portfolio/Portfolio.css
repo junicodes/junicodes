@@ -2,10 +2,6 @@
   color: white;
   width: 100%;
   padding-top: 8vh;
-  /* width */
-  /* Track */
-  /* Handle */
-  /* Handle on hover */
 }
 
 .portfolio-sty-cover .heading {
@@ -65,10 +61,11 @@
   padding: 2vh 2vh 0vh 2vh;
 }
 
-.portfolio-sty-cover .ibuild .block div small {
+.portfolio-sty-cover .ibuild .block div p small {
   font-size: 1.6vh;
   font-style: italic;
-  padding: 0vh 2vh 2vh 2vh;
+  text-align: justify;
+  padding: 0vh 0vh 0vh 0vh;
   color: skyblue;
 }
 
@@ -118,36 +115,5 @@
   .portfolio-sty-cover .ibuild .block div {
     width: 100%;
   }
-}
-
-.portfolio-sty-cover .scroller {
-  overflow-y: scroll;
-  scrollbar-width: thin;
-  cursor: pointer;
-}
-
-.portfolio-sty-cover .scroller::-webkit-scrollbar {
-  width: 1vh;
-}
-
-.portfolio-sty-cover .scroller::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 5px none;
-          box-shadow: inset 0 0 5px none;
-  border-radius: 10px;
-}
-
-.portfolio-sty-cover .scroller::-webkit-scrollbar-track:hover {
-  -webkit-box-shadow: inset 0 0 5px grey;
-          box-shadow: inset 0 0 5px grey;
-}
-
-.portfolio-sty-cover .scroller::-webkit-scrollbar-thumb {
-  background: #e83e8c;
-  border-radius: 10px;
-}
-
-.portfolio-sty-cover .scroller::-webkit-scrollbar-thumb:hover {
-  background: none;
-  border: 1px solid #e83e8c;
 }
 /*# sourceMappingURL=Portfolio.css.map */

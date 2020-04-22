@@ -24,11 +24,23 @@
 
 .contact-sty-cover .contact-grid .contact-info {
   height: 100%;
+  color: white;
 }
 
-.contact-sty-cover .contact-grid .contact-info a {
+.contact-sty-cover .contact-grid .contact-info p {
+  font-size: 2vh;
+}
+
+.contact-sty-cover .contact-grid .contact-info span {
   color: #e83e8c;
+  font-weight: bold;
+  font-family: 'Special Elite', cursive;
   cursor: pointer;
+}
+
+.contact-sty-cover .contact-grid .contact-info span:hover {
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 .contact-sty-cover .contact-grid .contact-form {
@@ -60,5 +72,23 @@
   border-color: white;
   color: #e83e8c;
   background: none;
+}
+
+@media (max-width: 991px) {
+  .contact-sty-cover .contact-grid .contact-info {
+    height: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-sty-cover {
+    padding-top: 15vh;
+  }
+  .contact-sty-cover .contact-grid {
+    height: 55vh;
+  }
+  .contact-sty-cover .contact-grid .contact-info p {
+    font-size: 1.5vh;
+  }
 }
 /*# sourceMappingURL=Contact.css.map */

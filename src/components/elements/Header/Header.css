@@ -82,9 +82,6 @@
   .header-sty-cover {
     height: 15vh !important;
   }
-  .header-sty-cover div {
-    height: 15vh;
-  }
   .header-sty-cover .header-logo {
     font-size: 5vh;
     margin-top: 12px;

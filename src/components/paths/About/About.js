@@ -13,23 +13,23 @@ const About = () => {
                     <article className="mt-2 animated fadeIn" style={{animationDelay: '0.1s', 
                         animationTimingFunction: 'linear'
                         }}>   
-                        I am an exception Software Developer currently residing in Port Hacourt, Rivers State, Nigeria.
+                        I am an experience Software Developer currently residing in Port Hacourt, Rivers State, Nigeria.
                         i build responsible web apps, scalable APIs and mobile apps using modern technologies. 
-                        I am passionate in what i do and love to solve problems and that's what led me to tech.
+                        I am passionate in what i do and love to solve problems and that's what led me to technology.
                     </article>
                     <article className="mt-3 animated fadeIn" style={{animationDelay: '0.2s', 
                         animationTimingFunction: 'linear'
                         }}>   
                        I am vast in most modern computer programming language, my core skill are 
                        <b style={{color: 'skyblue'}}> HTML</b>, 
-                       <b style={{color: 'skyblue'}}> CSS</b> (SASS, Bootrap),
+                       <b style={{color: 'skyblue'}}> CSS</b> (SASS, Boostrap),
                        <b style={{color: 'skyblue'}}> JAVASCRIPT</b> (ES6, ReactJS, NodeJS),
                        <b style={{color: 'skyblue'}}> Php</b> (Laravel),
                        <b style={{color: 'skyblue'}}> Mobile</b> (React Native, Cordova).
                        I am also experience in 
                        <b style={{color: 'skyblue'}}> DBMS</b> (MySQL, MongoDB, Firebase),
                        <b style={{color: 'skyblue'}}> NGINX</b>,
-                       <b style={{color: 'skyblue'}}> Git</b> version control,
+                       configuration<b style={{color: 'skyblue'}}> Git</b> version control,
                     </article>
                     <article className="mt-3 animated fadeIn" style={{animationDelay: '0.3s', 
                         animationTimingFunction: 'linear'

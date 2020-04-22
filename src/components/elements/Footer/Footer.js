@@ -92,14 +92,14 @@ class Footer extends Component {
                     
                  </div>
 
-                <div className="col-10 col-md-5 col-lg-6 recommendation-cover">
-                    <div className="recomendations pl-2 p-0 col-12 row">
+                <div className="col-11 col-md-5 col-lg-6 recommendation-cover">
+                    <div className="recomendations pl-1 p-0 col-12 row">
                         <p className="col-12 pl-3 mt-3 mb-0 p-0">Recomendations</p>
                         <div className="link pl-3 col-12 p-0">
                             <span onClick={this.openRecomendation} data-link="https://www.linkedin.com/company/primedsoft" className="pr-1 pr-lg-2  a">Primesoft</span>
                             <span onClick={this.openRecomendation} data-link="https://ndiecodes.github.io" className="px-1 px-lg-2 b">NdieCodes</span>
                             <span onClick={this.openRecomendation} data-link="https://www.stakeholderdemocracy.org" className="px-1 px-lg-2 c">SDN</span>
-                            <span onClick={this.openRecomendation} data-link="https://www.mayowafadairo.com" className="px-1 px-lg-2 d">Mayowa</span>
+                            <span onClick={this.openRecomendation} data-link="https://www.ksinnovationhub.com" className="px-1 px-lg-2 d">KSW Hub</span>
                             <span onClick={this.openRecomendation} data-link="https://hng.tech" className="px-1 px-lg-2 e">HNG</span>
                         </div>
                         <span className="col-12 mt-1 mt-md-3 mt-lg-3 copy-right">Copyright © 2020 Junicodes | All rights reserved</span>

@@ -23,7 +23,7 @@ const Contact = () => {
                                 framework for your Backend APIs and 
                                 <b style={{color: 'skyblue'}}> HTML/CSS</b>, 
                                 <b style={{color: 'skyblue'}}> ReactJS</b>, Vanilla
-                                or <b style={{color: 'skyblue'}}> JavaScript </b>
+                                <b style={{color: 'skyblue'}}> JavaScript </b>
                                 for Frontend.
                             </p>
                         </div>
@@ -32,9 +32,9 @@ const Contact = () => {
                         }}>
                             <h5>Mobile Development</h5>
                             <p>
-                                I use <b style={{color: 'skyblue'}}> React Native</b>
+                                I use <b style={{color: 'skyblue'}}> React Native </b>
                                 framework to build native mobile app for android and ios,
-                                i also convert web app to mobile app for both android and ios using 
+                                i also convert web to mobile app for both android and ios using 
                                 <b style={{color: 'skyblue'}}> Cordova</b> framework.
                             </p>
                         </div>
@@ -55,7 +55,7 @@ const Contact = () => {
                         }}>
                             <h5>Programming Tutorial</h5>
                             <p>
-                                I love to teach and i am always ready to educate young aspiring developer's how to code 
+                                I love to teach and i am always ready to educate young aspiring developer's on how to code 
                                 and become successful, i have a youtube channel where i teach solution to various programming problems.
                             </p>
                         </div>
