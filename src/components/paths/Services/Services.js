@@ -56,7 +56,7 @@ const Contact = () => {
                             <h5>Programming Tutorial</h5>
                             <p>
                                 I love to teach and I am always ready to educate young aspiring developers on how to code 
-                                and become successful, I have a youtube channel where i teach solution to various programming problems.
+                                and become successful, I have a youtube channel where I teach solution to various programming problems.
                             </p>
                         </div>
                     </div>
