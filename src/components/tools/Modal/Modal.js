@@ -17,10 +17,10 @@ const Modal = (props) => {
         <div className="modal-sty">
             <div className="modal-body">
                 <div className="modal-title">
-                    <h5>Modal Title</h5>
+                    <h5>{props.title}</h5>
                 </div>
                 <div className="modal-middle">
-                    <p>Thank you for successfully submitting a contact i will reach back to you st it soonest.</p>
+                    <p>{props.info}</p>
                 </div>
                 <div className="modal-footer m-0 p-1">
                     <button onClick={handleModalClose} type="submit" className="btn btn-outline-primary col-6 col-md-4 col-lg-3">Close</button>

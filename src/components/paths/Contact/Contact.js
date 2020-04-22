@@ -7,7 +7,9 @@ class Contact extends Component{
 
     phoneInputRef = createRef();
     state = {
-        modalTrigger: false
+        modalTrigger: false,
+        modalTitle: 'Contact Successful',
+        modalInfo: 'Thank you for successfully contact me, i will reach back to you in no time.'
     }
 
     contactUs = (e) => {
@@ -53,7 +55,9 @@ class Contact extends Component{
     render(){
         return (
             <div className="contact-sty-cover">
-                {this.state.modalTrigger ?  <Modal onSelectModal={this.handleModalTrigger}/> : null}
+                {this.state.modalTrigger ?  <Modal onSelectModal={this.handleModalTrigger}
+                    title={this.state.modalTitle} info={this.state.modalInfo}
+                /> : null}
                 <div className="col-12 animated fadeIn">
                     <div className="heading col-12 col-lg-6 mx-auto">
                         <h3>Contact Me</h3>
