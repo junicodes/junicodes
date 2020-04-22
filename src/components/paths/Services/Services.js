@@ -15,7 +15,7 @@ const Contact = () => {
                         }}>
                             <h5>Web Development</h5>
                             <p>
-                                I can completely build a responsible web app using technologies 
+                                I can build a responsive web app using modern web technologies 
                                 such as 
                                 <b style={{color: 'skyblue'}}> Laravel </b> 
                                  or 
@@ -24,7 +24,7 @@ const Contact = () => {
                                 <b style={{color: 'skyblue'}}> HTML/CSS</b>, 
                                 <b style={{color: 'skyblue'}}> ReactJS</b>, Vanilla
                                 <b style={{color: 'skyblue'}}> JavaScript </b>
-                                for Frontend.
+                                for Frontend interface.
                             </p>
                         </div>
                         <div className="col-12 col-md-6 col-lg-6 mx-auto animated fadeIn" style={{animationDelay: '0.4s', 
@@ -46,8 +46,8 @@ const Contact = () => {
                             <h5>Team/Project Mgt</h5>
                             <p>
                                 I have the ledership skills for managing your teams and projects, 
-                                in the past years i have handled small and larger teams and that has built my experience 
-                                enabling me to mitigate basic and unforeseen errors. 
+                                In the past years i have handled smaller and larger teams and that has sharpen my experience 
+                                enabling me to mitigate unforeseen errors. 
                             </p>
                         </div>
                         <div className="col-12 col-md-6 col-lg-6 mx-auto animated fadeIn" style={{animationDelay: '0.8s', 
