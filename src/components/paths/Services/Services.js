@@ -34,7 +34,7 @@ const Contact = () => {
                             <p>
                                 I use <b style={{color: 'skyblue'}}> React Native </b>
                                 framework to build native mobile app for android and ios,
-                                i also convert web to mobile app for both android and ios using 
+                                I also convert web to mobile app for both android and ios using 
                                 <b style={{color: 'skyblue'}}> Cordova</b> framework.
                             </p>
                         </div>
@@ -45,8 +45,8 @@ const Contact = () => {
                         }}>
                             <h5>Team/Project Mgt</h5>
                             <p>
-                                I have the ledership skills for managing your teams and projects, 
-                                In the past years i have handled smaller and larger teams and that has sharpen my experience 
+                                I have the leadership skills for managing your teams and projects, 
+                                in the past years I have handled different teams and that has sharpen my experience 
                                 enabling me to mitigate unforeseen errors. 
                             </p>
                         </div>
@@ -55,8 +55,8 @@ const Contact = () => {
                         }}>
                             <h5>Programming Tutorial</h5>
                             <p>
-                                I love to teach and i am always ready to educate young aspiring developer's on how to code 
-                                and become successful, i have a youtube channel where i teach solution to various programming problems.
+                                I love to teach and I am always ready to educate young aspiring developers on how to code 
+                                and become successful, I have a youtube channel where i teach solution to various programming problems.
                             </p>
                         </div>
                     </div>
