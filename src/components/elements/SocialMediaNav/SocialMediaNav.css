@@ -69,6 +69,9 @@
   .socialmedia-nav-sty-cover {
     width: 4.5vw;
   }
+  .socialmedia-nav-sty-cover h5 {
+    display: none;
+  }
   .socialmedia-nav-sty-cover .social div .social-name {
     margin-left: 5.7vw;
   }

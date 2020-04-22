@@ -56,7 +56,7 @@
     top: 50%;
   }
   .showcasemiddle-text-sty-cover h1 {
-    font-size: 7.2vh;
+    font-size: 7vh;
   }
   .showcasemiddle-text-sty-cover p {
     font-size: 2.2vh;
@@ -64,7 +64,7 @@
   .showcasemiddle-text-sty-cover button {
     height: 5vh;
     width: 30vw;
-    font-size: 2.4vh;
+    font-size: 2.2vh;
   }
 }
 

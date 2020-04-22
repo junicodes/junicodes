@@ -67,6 +67,9 @@
   @media(max-width: 768px) {
         .socialmedia-nav-sty-cover {
             width: 4.5vw;
+            h5 {
+                display: none;
+            }
             .social {
                 div {
                     .social-name {
