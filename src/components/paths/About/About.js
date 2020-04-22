@@ -20,7 +20,7 @@ const About = () => {
                     <article className="mt-3 animated fadeIn" style={{animationDelay: '0.2s', 
                         animationTimingFunction: 'linear'
                         }}>   
-                       My core programming skill are 
+                       My core programming skills are 
                        <b style={{color: 'skyblue'}}> HTML</b>, 
                        <b style={{color: 'skyblue'}}> CSS</b> (SASS, Boostrap),
                        <b style={{color: 'skyblue'}}> JAVASCRIPT</b> (ES6, ReactJS, NodeJS),
@@ -35,8 +35,8 @@ const About = () => {
                         animationTimingFunction: 'linear'
                         }}>
                         Personally i have completed projects and also worked with different teams, 
-                        I have been privileged to work at startups and organizations where i handle lead roles to foreseen projects to it's finish,
-                        My core responsibility is to illuminate integrity and transparency in my business.
+                        I have been privileged to work at startups and organizations where i handled lead roles to foreseen projects to it's finish,
+                        transparency and integrity is the key to my business success, i have a drive that keeps me going <span style={{color: '#e83e8c'}}>"If someone has done it, then i can do better"</span>.
                     </article>
                 </div>
             </div>
