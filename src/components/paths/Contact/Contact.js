@@ -9,7 +9,7 @@ class Contact extends Component{
     state = {
         modalTrigger: false,
         modalTitle: 'Contact Successful',
-        modalInfo: 'Thank you for successfully contact me, i will reach back to you in no time.'
+        modalInfo: 'Thank you for successfully contacting me, i will reach back to you in no time.'
     }
 
     contactUs = (e) => {
