@@ -56,15 +56,21 @@
     top: 50%;
   }
   .showcasemiddle-text-sty-cover h1 {
-    font-size: 7.5vh;
+    font-size: 7.2vh;
   }
   .showcasemiddle-text-sty-cover p {
-    font-size: 2.4vh;
+    font-size: 2.2vh;
   }
   .showcasemiddle-text-sty-cover button {
     height: 5vh;
     width: 30vw;
     font-size: 2.4vh;
+  }
+}
+
+@media (max-width: 350px) {
+  .showcasemiddle-text-sty-cover button {
+    width: 40vw;
   }
 }
 /*# sourceMappingURL=ShowCaseMiddleText.css.map */
