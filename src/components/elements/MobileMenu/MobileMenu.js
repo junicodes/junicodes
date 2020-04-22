@@ -13,7 +13,7 @@ class MobileMenu extends Component {
     handleMobileLinkChange = (e) => {
         const link = e.target.dataset.id
 
-        Array.from(document.querySelectorAll('.main-nav .mobile-links')).map((element, i)=> {
+        Array.from(document.querySelectorAll('.main-nav .mobile-links')).map(element => {
             element.style.color = 'white';
           });
           e.target.style.color = '#e83e8c';

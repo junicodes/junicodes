@@ -35,7 +35,7 @@ class Contact extends Component{
             .then(res => res.json())
             .then(data => {
                 console.log(data)
-                if(data.success == "Mail Sent") {
+                if(data.success === "Mail Sent") {
                     document.querySelector('#contact-btn').innerHTML = `Send`;
                     form.reset();
                     this.setState({modalTrigger: true});

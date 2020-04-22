@@ -24,7 +24,7 @@ class Header extends Component {
   handleLinkChange = (e) => {
     const link = e.target.dataset.id
 
-    Array.from(document.querySelectorAll('.laptop-links')).map((element, i)=> {
+    Array.from(document.querySelectorAll('.laptop-links')).map(element => {
       const checkIfClass = element.classList.contains('color-tweak');
         if(checkIfClass){
           element.classList.remove('color-tweak') 
