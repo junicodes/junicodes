@@ -20,7 +20,7 @@ const About = () => {
                     <article className="mt-3 animated fadeIn" style={{animationDelay: '0.2s', 
                         animationTimingFunction: 'linear'
                         }}>   
-                       I am capable of solving software problems using modern programming language, my core skill are 
+                       My core programming skill are 
                        <b style={{color: 'skyblue'}}> HTML</b>, 
                        <b style={{color: 'skyblue'}}> CSS</b> (SASS, Boostrap),
                        <b style={{color: 'skyblue'}}> JAVASCRIPT</b> (ES6, ReactJS, NodeJS),
