@@ -34,7 +34,7 @@
 .contact-sty-cover .contact-grid .contact-info span {
   color: #e83e8c;
   font-weight: bold;
-  font-family: 'Special Elite', cursive;
+  font-family: "SpecialElite-Regular";
   cursor: pointer;
 }
 
@@ -54,7 +54,7 @@
   -webkit-box-shadow: 5px 5px #494949;
           box-shadow: 5px 5px #494949;
   font-weight: bold;
-  font-family: 'Special Elite', cursive;
+  font-family: "SpecialElite-Regular";
 }
 
 .contact-sty-cover .contact-grid .contact-form form button:hover {
