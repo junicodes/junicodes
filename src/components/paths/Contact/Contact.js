@@ -99,7 +99,7 @@ class Contact extends Component{
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="message">Message <span style={{color: 'red'}}> *</span></label>
-                                    <textarea className="form-control" name="message" id="message" rows="3" placeholder="Ttye a message" required></textarea>
+                                    <textarea className="form-control" name="message" id="message" rows="3" placeholder="Type a message" required></textarea>
                                 </div>
                                 <button type="submit" id="contact-btn" className="btn btn-outline-primary col-12 col-md-4 col-lg-3">
                                     Send
