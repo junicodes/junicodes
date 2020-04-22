@@ -34,9 +34,9 @@ const About = () => {
                     <article className="mt-3 animated fadeIn" style={{animationDelay: '0.3s', 
                         animationTimingFunction: 'linear'
                         }}>
-                        Personally i have completed projects and also worked with different teams, 
-                        I have been privileged to work at startups and organizations where i handled lead roles to foreseen projects to it's finish,
-                        transparency and integrity is the key to my business success, i have a drive that keeps me going <span style={{color: '#e83e8c'}}>"If someone has done it, then i can do better"</span>.
+                        I am a team player and a goal-getter, I have solved major programming problems with different organizations, 
+                        transparency and integrity is the key to my business success, i have a drive that keeps me going 
+                        <span style={{color: '#e83e8c'}}>"If someone has done it, then i can do better"</span>.
                     </article>
                 </div>
             </div>
