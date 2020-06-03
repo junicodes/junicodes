@@ -65,7 +65,7 @@ class Contact extends Component{
                     <div className="col-12 col-md-10 col-lg-10 mx-auto row mt-3 p-0 contact-grid scroller">
                         <div className="col-12 mx-auto col-lg-6 row contact-info p-lg-4">
                             <div className="col-8 m-0 p-0">
-                                <p>Email : junicodes@gmail.com</p>
+                                <p>Email : junicodesdev@gmail.com</p>
                                 <p>Phone : +2347060959269</p>
                                 <p>Facebook : <span onClick={this.openSocial} data-url="https://web.facebook.com/junicodes">open</span></p>
                                 <p>Github :   <span onClick={this.openSocial} data-url="https://github.com/junicodes">open</span></p>
