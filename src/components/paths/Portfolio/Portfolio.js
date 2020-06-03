@@ -55,7 +55,7 @@ const Portfolio = () => {
                             <div className="build-show animated fadeIn" style={{animationDelay: '0.6s', 
                                 animationTimingFunction: 'linear'
                                 }}>
-                                <a href="https://junicode" target="_blank" rel="noopener noreferrer">
+                                <a href="https://reactmoviebox.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                                     <h5>Movie Box</h5>
                                     <p><small>Tech Used: Node.js, Socket.io, JavaScript, Dialog Flow</small></p>
                                     <p>An AI Bot that give information about covid-19 virus from all reliable sources,
