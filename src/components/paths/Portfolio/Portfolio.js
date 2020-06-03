@@ -39,6 +39,17 @@ const Portfolio = () => {
                                 </a>
                             </div>
                         </div>
+                        {/* <div className="p-3">
+                            <div className="build-show animated fadeIn" style={{animationDelay: '0.6s', 
+                                animationTimingFunction: 'linear'
+                                }}>
+                                <a href="https://permollys.com/" target="_blank" rel="noopener noreferrer">
+                                    <h5>Permollys</h5>
+                                    <p><small>Tech Used: Wordpress, HTML, CSS</small></p>
+                                    <p>A lifestyle blog website owned and managed by Precious Okechukwu.</p>
+                                </a>
+                            </div>
+                        </div> */}
                         <div className="p-3">
                             <div className="build-show animated fadeIn" style={{animationDelay: '0.6s', 
                                 animationTimingFunction: 'linear'
