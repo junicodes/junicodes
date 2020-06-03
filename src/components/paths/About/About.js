@@ -13,8 +13,8 @@ const About = () => {
                     <article className="mt-2 animated fadeIn" style={{animationDelay: '0.1s', 
                         animationTimingFunction: 'linear'
                         }}>   
-                        I am an experience Software Developer currently residing in Port Hacourt, Rivers State, Nigeria.
-                        i build responsive web apps, scalable APIs and mobile apps using modern technologies. 
+                        I am an experienced Software Developer currently residing in Port Harcourt, Rivers State, Nigeria. 
+                        I build responsive web apps, scalable APIs, and mobile apps using modern technologies.
                         my curiosity on how the internet works led me to technology.
                     </article>
                     <article className="mt-3 animated fadeIn" style={{animationDelay: '0.2s', 
@@ -35,8 +35,8 @@ const About = () => {
                         animationTimingFunction: 'linear'
                         }}>
                         I am a team player and a goal-getter, I have solved major programming problems with different organizations, 
-                        transparency and integrity is the key to my business success, i have a drive that keeps me going 
-                        <span style={{color: '#e83e8c'}}> "If someone has done it, then i can do better"</span>.
+                        transparency and integrity is the key to my business success, 
+                        I have a drive that keeps me going <span style={{color: '#e83e8c'}}> "If someone has done it, then i can do better"</span>.
                     </article>
                 </div>
             </div>
