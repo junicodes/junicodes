@@ -57,7 +57,7 @@ const Portfolio = () => {
                                 <a href="https://permollys.com/" target="_blank" rel="noopener noreferrer">
                                     <h5>AdsVilla</h5>
                                     <p><small>Tech Used: NodeJS, HTML, CSS, JS,</small></p>
-                                    <p>An Advertising agency based at abuja, member advertise products and get paid.</p>
+                                    <p>An Advertising agency based in the city of Abuja, Nigeria.</p>
                                 </a>
                             </div>
                         </div>
