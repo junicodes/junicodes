@@ -54,7 +54,7 @@ const Portfolio = () => {
                             <div className="build-show animated fadeIn" style={{animationDelay: '0.6s', 
                                 animationTimingFunction: 'linear'
                                 }}>
-                                <a href="https://permollys.com/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://adsvilla.org/" target="_blank" rel="noopener noreferrer">
                                     <h5>AdsVilla</h5>
                                     <p><small>Tech Used: NodeJS, HTML, CSS, JS,</small></p>
                                     <p>An Advertising agency based in the city of Abuja, Nigeria.</p>
