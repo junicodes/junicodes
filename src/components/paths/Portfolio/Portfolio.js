@@ -65,6 +65,17 @@ const Portfolio = () => {
                             <div className="build-show animated fadeIn" style={{animationDelay: '0.6s', 
                                 animationTimingFunction: 'linear'
                                 }}>
+                                <a href="https://pfxnet.com/" target="_blank" rel="noopener noreferrer">
+                                    <h5>Pfxnet</h5>
+                                    <p><small>Tech Used: NodeJS, HTML, CSS, JS,</small></p>
+                                    <p>An Estate Managemnet and investment platform.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="p-3">
+                            <div className="build-show animated fadeIn" style={{animationDelay: '0.6s', 
+                                animationTimingFunction: 'linear'
+                                }}>
                                 <a href="https://ewoma.herokuapp.com" target="_blank" rel="noopener noreferrer">
                                     <h5>Ewoma Bot</h5>
                                     <p><small>Tech Used: Node.js, Socket.io, JavaScript, Dialog Flow</small></p>
