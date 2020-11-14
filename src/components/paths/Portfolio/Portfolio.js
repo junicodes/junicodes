@@ -76,6 +76,17 @@ const Portfolio = () => {
                             <div className="build-show animated fadeIn" style={{animationDelay: '0.6s', 
                                 animationTimingFunction: 'linear'
                                 }}>
+                                <a href="https://adsvilla.org/" target="_blank" rel="noopener noreferrer">
+                                    <h5>Pfxnet (Ongoing Build)</h5>
+                                    <p><small>Tech Used: NodeJS (Adonis.js), React.js, MySQL</small></p>
+                                    <p>An advertising agency located at Abuja, Nigeria.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="p-3">
+                            <div className="build-show animated fadeIn" style={{animationDelay: '0.6s', 
+                                animationTimingFunction: 'linear'
+                                }}>
                                 <a href="https://ewoma.herokuapp.com" target="_blank" rel="noopener noreferrer">
                                     <h5>Ewoma Bot (Personal)</h5>
                                     <p><small>Tech Used: Node.js, Socket.io, JavaScript, Dialog Flow</small></p>
